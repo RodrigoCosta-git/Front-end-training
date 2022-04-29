@@ -1,0 +1,56 @@
+body{
+    background-color: rgb(37, 37, 75);
+}
+#paragrafo1{
+    font-family: Arial;
+    font-size: 25px;
+    color: rgb(167, 207, 242);
+    border: 0;
+    background-color: rgba(41, 60, 96, 0.468);
+    padding: 15px 15px;
+    text-align: center;
+}
+
+#paragrafo2{
+    font-family: 'Courier New';
+    font-size: 25px;
+    color: rgb(255, 150, 150);
+    border: 0;
+    background-color: rgba(96, 41, 41, 0.468);
+    padding: 15px 15px;
+    text-align: center;
+
+}
+
+.carros{
+    font-family:fantasy;
+    font-size: 25px;
+    color: rgb(166, 255, 150);
+    border:0;
+    background-color: rgba(45, 96, 41, 0.468);
+    padding: 15px 15px;
+    text-align: center;
+}
+
+#div{
+    font-family: 'Franklin Gothic Medium';
+    font-size: 25px;
+    color: rgb(242, 167, 238);
+    border:0;
+    background-color: rgba(96, 41, 96, 0.468);
+    padding: 15px 15px;
+    text-align: center;
+}
+
+/* Agrupamento de Seleção de ID */
+
+#paragrafo1, #paragrafo2{
+    font-style: oblique;
+    border: 3px;
+    border-color: rgba(240, 248, 255, 0.292);
+    border-style: groove;
+}
+
+/*  selecionar ID: #objeto{}
+    selecionar classe: .classe{}
+*/
