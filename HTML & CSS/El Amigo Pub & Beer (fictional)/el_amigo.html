@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>• El Amigo Pub •</title>
+
+        <link rel="stylesheet" href="el_amigo.css">
+    </head>
+    <body>
+
+        <div id="container">
+
+            <div id="header">
+                <a href="/" title="Return to Home Page" id="logo"><img src="images/logo.png" alt="El Amigo Pub"></a>  
+            </div>
+
+            <div id="content" class="content-block">
+                <h1>The Best Craft Beer in Spain!</h1>
+                <p>Bienvenido, amigos! We are completely fictional location for educational purposes. But that doesn't mean we can't imagine that we have the <em>BEST</em> beer in spain!</p>
+            </div>
+
+            <div id="reserve" class="content-block">
+                <h2>Make a Reservation</h2>
+                <p>Guarantee your spot before somebody else does!</p>
+
+                <form action="submit">
+                    <label for="your_name">Your Name</label>
+                    <input type="text"  id="your_name" placeholder="Type your name here">
+                
+                    <label for="your_email">Your Email</label>
+                    <input type="email" id="your_email" placeholder="example@gmail.com">
+                
+                    <label for="date">Date</label>
+                    <!--<input type="text" id="your_time" placeholder="Friday at 8pm">-->
+                    <input type="date" id="date" name="resDate" min="2022-05-03" max="2022-06-30">
+
+                    <label for="time">Time</label>
+                    <input type="time" id="time" name="resTime" min="19:00" max="23:00">
+                        <span class="validacao"></span>
+                    
+                    <input id="button" type="submit" value="Reserve">               
+                </form>
+            </div>
+
+            <div id="chopp"></div>
+
+            <div id="footer" class="content-block">
+                &copy; 2022 El Amigo
+            </div>
+        </div>
+        
+        
+
+    </body>
+</html>
