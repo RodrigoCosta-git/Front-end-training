@@ -16,6 +16,7 @@ body{
     padding: 40px;
     color: #333;
     text-rendering: optimizeLegibility;
+    display: flex;
 }
 
 h1, h2, h3, h4, h5, h6{
