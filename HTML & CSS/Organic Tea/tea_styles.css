@@ -1,0 +1,178 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: url('images/green_background.jpg') top left repeat;
+    font-family: "Book Antiqua", Palatino, "Palatino Linotype", "Palatino LT STD", Georgia, serif;
+}
+
+img#logo{
+    display: block;
+    margin-top: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0px;
+    position: relative;
+/*teste*/    animation: logo 3.5s;
+
+}
+
+@keyframes logo{
+    
+    0%  {left:0px; top:165px;}
+    50%  {left:0px; top:150px;}
+   70%  {left:0px; top:150px;}
+  100%  {left:0px; top:0px;}
+
+    0%   {height: 300px; width: 300px;}
+    70%   {height: 300px; width: 300px;}
+    100%   {height: 180px; width: 180px;}
+
+     0% {
+          opacity: 0;
+        }
+        50% {
+          opacity: 1;
+        }
+        
+}/*fim teste*/
+
+#container{
+    width: 800px;
+    border-radius: 20px;
+    margin: 30px auto;
+    padding: 40px;
+    background: #c0d65f69;
+    /*teste*/    animation: container 5.5s;
+}
+
+@keyframes container{
+    
+
+    50%  {left:0px; top:150px;}
+   70%  {left:0px; top:150px;}
+  100%  {left:0px; top:0px;}
+
+     0% {
+          opacity: 0;
+        }
+     50% {
+          opacity: 0;
+        }
+        70% {
+          opacity: 1;
+        }
+        
+}/*fim teste*/
+
+#container::after{
+    content: " ";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+
+#main-content{
+    width: 500px;
+    float: left;
+}
+
+#sidebar{
+    background: #ffffff86;
+    width: 185px;    
+    border-radius: 5px;
+    float: right;
+    padding: 22px 22px 0;
+    margin: 0 0 0 15px;
+}
+
+em{
+    font-weight: bold;
+    font-style: normal;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+    text-decoration: underline;
+}
+
+
+#sidebar h3{
+    background: #d49797;
+    padding: 4px 4px 4px 29px;
+    color: white;
+    font-size: 16px;
+    position: relative;
+    left: -30px;
+}
+
+#sidebar .widget{
+    margin: 0 0 22px;
+}
+
+ul, #sidebar p{
+    margin-top: 7px;
+    list-style: none;
+}
+
+#special-offer{
+    background: rgba(31, 61, 4, 0.192);
+    padding: 0 0 20px 25px;
+    margin-top: 60px;
+    border-radius: 3px;
+}
+
+#special-offer h2{
+    font-size: 19px;
+    background: #bd3939;
+    color: white;
+    padding: 5px;
+    display: inline;
+    position: relative;
+    top: -13px;
+    left: -35px;
+    border-radius: 2px;
+}
+
+#special-offer p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+/* Typography */
+
+img#today{
+    display: flex;
+    position: relative;
+    right: -440px;
+    bottom: 50px;
+    animation: today 1s infinite;
+
+}
+
+@keyframes today{
+     0% {
+          opacity: 0;
+        }
+        50% {
+          opacity: 1;
+        }
+        100% {
+            opacity: 0;
+          }
+}
+
+h1, h2, h3{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+p.lead{
+    margin: 20px 10px 20px 0;
+    text-align: justify
+}
+
+h1{
+    /*font-size: ;*/
+}
+
